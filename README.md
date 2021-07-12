@@ -35,6 +35,8 @@ the elements of A are all distinct;
 each element of array A is an integer within the range [1 ..N].
 
 
-目前想到的解法是，對陣列跑回圈，並記錄當下開過燈的最大值等於目前的index時，量的次數就加１
+目前想到的解法是，對陣列跑回圈，並記錄當下開過燈的最大值等於目前的index時，亮的次數就加１
+
+如前三次為[2,1,3]此時最大值跟index相等，會亮。
 
 這種作法的時間服雜度為O(N)
